@@ -52,5 +52,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+        findViewById(R.id.Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this,"1890063 武潇",Toast.LENGTH_LONG).show();
+
+
+
+            }
+        });
+
+
+
+
     }
 }
